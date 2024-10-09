@@ -1,0 +1,45 @@
+@import '_variables';
+@import '_mixins';
+
+header {
+  background-color: $background-color;
+  padding: 10px;
+  @include clearfix();
+
+  h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: $link-color;
+    font-size: $font-size * 3;
+    font-weight: 900;
+    
+    a {
+      text-decoration: none;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      @include flexbox();
+
+      li {
+        margin-right: 20px;
+
+        a {
+          color: $link-color;
+          text-decoration: none;
+
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}

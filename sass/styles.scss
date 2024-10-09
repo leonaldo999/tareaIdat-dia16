@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Roboto Condensed", sans-serif;
+  src: url(../estio-texto/fonts/RobotoCondensed-Italic-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: "Roboto Condensed";
+}
+
+@import '_header';
+@import '_main';
+@import '_footer';

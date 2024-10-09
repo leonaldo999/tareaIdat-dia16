@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Roboto Condensed", sans-serif;
+  src: url(../estio-texto/fonts/RobotoCondensed-Italic-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Condensed";
+}
+
+header {
+  background-color: #f0cccc;
+  padding: 10px;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #161af1;
+  font-size: 72px;
+  font-weight: 900;
+}
+header h1 a {
+  text-decoration: none;
+}
+header h1 a:hover {
+  color: #fb3838;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li {
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: #161af1;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #fb3838;
+}
+
+main {
+  padding: 20px;
+  margin: 20px;
+  background-image: url(https://th.bing.com/th/id/R.88b3c02998813d1ba985ff06da5c616c?rik=FLNmCcDhBVZgZw&pid=ImgRaw&r=0);
+  color: #090909;
+  text-align: center;
+}
+main h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+main section {
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  background-color: rgba(160, 187, 215, 0.7);
+  border-radius: 15px;
+  box-shadow: 0 10px 5px rgb(128, 218, 241);
+}
+main section article {
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+}
+main section article h2 {
+  font-size: 28px;
+}
+main section article ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+main section article ul li {
+  margin-bottom: 15px;
+}
+main section article ul li h3 {
+  font-size: 24px -10;
+  margin-bottom: 5px;
+}
+main section article ul li p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer {
+  background-color: #f0cccc;
+  padding: 10px;
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=styles.css.map */

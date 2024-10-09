@@ -1,0 +1,54 @@
+@import '_variables';
+@import '_mixins';
+
+main {
+  padding: 20px;
+  margin: 20px;
+  background-image: url(https://th.bing.com/th/id/R.88b3c02998813d1ba985ff06da5c616c?rik=FLNmCcDhBVZgZw&pid=ImgRaw&r=0);
+  color: $secondary-color;
+  text-align: center;
+
+  h2 {
+    font-size: $font-size + 12;
+    margin-bottom: 10px;
+  }
+
+  section {
+    padding-bottom: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    background-color: $background-color-main;
+    border-radius: 15px;
+    box-shadow: 0 10px 5px rgb(128, 218, 241);
+
+    article {
+      padding-bottom: 24px;
+      margin-bottom: 20px;
+
+      h2 {
+        font-size: $font-size + 4;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          margin-bottom: 15px;
+
+          h3 {
+            font-size: $font-size -10;
+            margin-bottom: 5px;
+          }
+
+          p {
+            font-size: $font-size - 4;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+  }
+}

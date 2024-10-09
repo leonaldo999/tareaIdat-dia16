@@ -1,0 +1,12 @@
+@import '_variables';
+
+footer {
+  background-color: $background-color;
+  padding: 10px;
+  text-align: center;
+
+  p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
